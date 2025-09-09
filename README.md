@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  extra aandacht surface laag, maar wil ook responsive leren
+ responsive
  
 </details>
 
@@ -36,17 +36,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.vangoghmuseum.nl/nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Home pagina Van Gogh
   <img src="readme-images/ss-home.png" width="375px" alt="screenshot van home">
   
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+ Shop pagina Van Gogh
   <img src="readme-images/ss-shop.png" width="375px" alt="screenshot van shop">
- 
 </details>
 
 
