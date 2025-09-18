@@ -3,24 +3,26 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Jude">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Van gogh museum</title>
+	<title>Van Gogh museum</title>
 	<link href="styles/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="index">
 	<header>
+		<!-- zoekbalk -->
+		<button><img src="images/left_14806569.png" alt="Menu"></button>
+		<button><img src="images/loupe 1.png" alt="Zoeken"></button>
+		<a href="index.html"><img src="images/logo.svg" alt="Van Gogh logo"></a>
 		<nav>
 			<ul>
-				<li> <a href="#">Home</a></li>
+				<li> <a href="index.html">Home</a></li>
 				<li> <a href="#">Bezoek & tickets</a></li>
 				<li> <a href="#">Kunst & verhalen</a></li>
 				<li> <a href="#">Over</a></li>
 				<li> <a href="shop.html">Shop</a></li>
 				<li> <a href="#">NL|EN</a></li>
-				<img src="images/logo.svg" alt="Van Gogh logo">
-				<!-- zoekicoon toevoegen -->
 			</ul>
 		</nav>
 	</header>
@@ -39,26 +41,37 @@
 
 		<section>
 			<!-- heading toevoegen -->
-			<article>
-				<img src="images/vangoghportrait.webp" alt="portrait Vincent van Gogh">
-				<h2>Vincent Van Gogh</h2>
-				<p>Duik in het leven en werk van Vincent van Gogh, bekijk zijn schilderijen, tekeningen, brieven en
-					meer.</p>
-				<a href="#">Alles over Vincent</a>
-			</article>
-			<article>
-				<!--img vinden  -->
-				<p>Altijd te zien</p>
-				<h2>Van Goghs meesterwerken</h2>
-				<p>Verken de vaste tentoonstelling met beroemde schilderijen van Vincent van Gogh.</p>
-				<a href="#">Lees verder</a>
-			</article>
-			<article>
-				<!-- img vinden -->
-				<h2>5x Van Goghs Amandelbloesem</h2>
-				<p>Waarom koos Vincent voor dit onderwerp? En voor wie maakte hij dit schilderij?</p>
-				<a href="#">Ontdek meer</a>
-			</article>
+			<h2 class="visually hidden">In het museum</h2>
+			<ul>
+				<li>
+					<h3>In de ban van Vincent</h3>
+					<p>Nu te zien</p>
+					<p>Ontdek de portretten die Isaac Israëls van Jo van Gogh-Bonger maakte tijdens hun innige
+						vriendschap.</p>
+					<img src="images/vrouwvoorvangoghszonnebloemen.webp" alt="Vrouw voor Van Goghs Zonnebloemen">
+					<a href="#">Lees meer</a>
+				</li>
+				<li>
+					<p>Altijd te zien</p>
+					<h3>Van Goghs meesterwerken</h3>
+					<p>Verken de vaste tentoonstelling met beroemde schilderijen van Vincent van Gogh.</p>
+					<img src="images/zonnenbloemen.webp" alt="Zonnebloemen">
+					<a href="#">Lees verder</a>
+				</li>
+				<li>
+					<h3>Vincent Van Gogh</h3>
+					<p>Duik in het leven en werk van Vincent van Gogh, bekijk zijn schilderijen, tekeningen, brieven en
+						meer.</p>
+					<img src="images/vangoghportrait.webp" alt="portrait Vincent van Gogh">
+					<a href="#">Alles over Vincent</a>
+				</li>
+				<li>
+					<h3>5x Van Goghs Amandelbloesem</h3>
+					<p>Waarom koos Vincent voor dit onderwerp? En voor wie maakte hij dit schilderij?</p>
+					<img src="images/amandelbloesem.webp" alt="Amandelbloesem">
+					<a href="#">Ontdek meer</a>
+				</li>
+			</ul>
 		</section>
 	</main>
 	<footer>
@@ -67,7 +80,8 @@
 		<a href="#">Lees de verhalen</a>
 		<a href="#">Op de hoogte blijven? Schrijf je in voor de nieuwsbrief</a>
 		<h3>Onze hoofdsponsors:</h3>
-		<!-- img vinden -->
+		<img src="images/vriendenloterij.webp" alt="Vriendenloterij">
+		<img src="images/asml.webp" alt="ASML">
 		<!-- blijvende ronde knop vinden -->
 	</footer>
 	<script defer src="scripts/script.js"></script>
